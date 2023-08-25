@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'work sans';
+    background-color: black;
+    height: 100vh;
+}
+
+main {
+    width: 700px;
+    position: absolute;
+    height: 100vh;
+    background-color: black;
+    z-index: 1;
+}
+
+/*Logo*/
+
+.rocket {
+    padding-left: 30px;
+    width: 400px;
+    height: 200px;
+}
+
+/*Texts*/
+
+#texts {
+    padding-left: 36px;
+    padding-bottom: 50px;
+}
+
+#texts h2 {
+    color: #08C05E;
+    font-weight: 700;
+}
+
+#firsttext {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#secondtext {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+/*Box email*/
+#boxemail {
+    margin-left: 36px;
+    width: 798px;
+    position: relative;
+}
+
+label {
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    display: flex;
+    padding-bottom: 17px;
+}
+
+input {
+    width: 798px;
+    height: 30px;
+    border-left: 5px solid #04D361;
+    border-style: solid;
+    position: absolute;
+    bottom: 0px;
+}
+
+button img {
+    border: 0;
+    padding: 0;
+    margin: 0;
+    height: 27px;
+    background-color: #8257E5;
+    position: absolute;
+    right: 0px;
+    bottom: 2px;
+}
+
+/*link*/
+a {
+    margin-left: 36px;
+    margin-top: 50px;
+    text-decoration: none;
+    color: #8257E5;
+    display: flex;
+}
+
+a p {
+    padding-top: 3px;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+}
+#arrow {
+    height: 25px;
+    width: 25px;
+}
+
+
+#imgback {
+    height: 100vh;
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    overflow: hidden;
+}
